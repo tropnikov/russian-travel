@@ -1,24 +1,150 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
 .page {
+  background-color: #2a2c2f;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
+
+.page__container {
+  min-width: 320px;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 28px 48px 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.header__container {
-}
+
 .header__logo {
   width: 177px;
   height: 52px;
 }
+
+.header__lang-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header__lang-link {
+  font-family: "Inter-Regular", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: white;
+}
+.header__lang-link:nth-of-type(1) {
+  /* margin-right: 18px; */
+}
 .content {
 }
 .lead {
+  max-width: 984px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.lead__title {
+  max-width: 720px;
+  max-height: 200px;
+  font-size: 96px;
+  line-height: 100px;
+  margin: 56px auto 0;
+  text-align: center;
+}
+.lead__subtitle {
+  max-width: 940px;
+  max-height: 72px;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 32px auto 64px;
+  text-align: center;
+}
+
+.lead__image {
+  width: 100%;
+  max-width: 984px;
+  min-width: 320px;
+  max-height: 615px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+
+.lead__caption {
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 8px auto 0;
+  /* width: max-content; */
 }
 .intro {
+  margin: 92px auto;
+  /* margin-left: 100px; */
+  /* margin-right: auto; */
+  /* padding-right: 294px;
+  width: 690px; */
+  max-width: 690px;
+  max-height: 429px;
+}
+.intro__title {
+}
+.intro__text {
+}
+.intro__list {
 }
 .photo-grid {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  gap: 16px;
+  width: 100%;
+  max-width: 1184px;
+}
+.photo-grid__item {
+  width: 100%;
 }
 .places {
 }
+.place {
+}
+.place__title {
+}
+.place__image {
+  width: 460px;
+  height: 460px;
+}
+.place__website {
+}
+.place__url-heading {
+}
+.place__link {
+}
+.place__paragraph {
+}
 .cover {
 }
+.cover__title {
+}
+.cover__subtitle {
+}
 .footer {
+}
+.footer__link {
+}
+.footer__copyright {
 }
