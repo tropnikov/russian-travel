@@ -1,0 +1,11 @@
+.header__lang {
+  margin-right: 18px;
+}
+
+.header__lang:first-child {
+  border-bottom: 2px solid white;
+}
+
+.header__lang:last-child {
+  margin-right: 0;
+}

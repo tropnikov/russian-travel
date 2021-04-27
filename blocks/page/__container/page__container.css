@@ -1,0 +1,9 @@
+.page__container {
+  min-width: 320px;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 28px 48px 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
