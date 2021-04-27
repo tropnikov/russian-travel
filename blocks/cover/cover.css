@@ -1,0 +1,15 @@
+.cover {
+  max-width: 1184px;
+  max-height: 740px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+}
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 1024px;
+    position: relative;
+    left: -48px;
+    width: calc(100% + 96px);
+  }
+}

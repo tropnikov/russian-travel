@@ -1,0 +1,34 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  /* min-height: 300px; */
+  text-decoration: none;
+  color: white;
+  padding: calc((62.5% - 250px) / 2) 0;
+}
+
+.cover__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity 0.2s ease;
+}
+.cover__link:hover::before {
+  opacity: 0.8;
+}

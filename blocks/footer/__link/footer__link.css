@@ -1,0 +1,12 @@
+.footer__link {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 18px;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}
