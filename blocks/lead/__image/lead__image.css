@@ -6,3 +6,12 @@
   min-height: 200px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    max-width: 1024px;
+    position: relative;
+    left: -24px;
+    width: calc(100% + 48px);
+  }
+}

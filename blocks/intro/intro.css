@@ -3,3 +3,9 @@
   max-width: 984px;
   height: 429px;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    margin: 88px auto;
+  }
+}

@@ -4,8 +4,14 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+
 @media screen and (max-width: 1279px) {
   .photo-grid__item {
     max-width: 300px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .photo-grid__item {
+    max-width: 352px;
   }
 }
