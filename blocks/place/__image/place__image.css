@@ -27,6 +27,6 @@
     max-width: 736px;
     position: relative;
     left: -16px;
-    width: calc(100% + 32px);
+    width: calc(100vw + 32px);
   }
 }
