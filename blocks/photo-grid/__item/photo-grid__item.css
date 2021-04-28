@@ -7,11 +7,17 @@
 
 @media screen and (max-width: 1279px) {
   .photo-grid__item {
-    max-width: 300px;
+    max-width: 385.3px;
   }
 }
 @media screen and (max-width: 1023px) {
   .photo-grid__item {
-    max-width: 352px;
+    max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    max-width: 767px;
   }
 }

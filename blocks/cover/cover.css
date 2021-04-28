@@ -20,3 +20,11 @@
     width: calc(100% + 48px);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .cover {
+    position: relative;
+    left: -16px;
+    width: calc(100% + 32px);
+  }
+}

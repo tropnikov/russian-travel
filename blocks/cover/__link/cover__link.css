@@ -10,7 +10,6 @@
   position: relative;
   z-index: 0;
   overflow: hidden;
-  /* min-height: 300px; */
   text-decoration: none;
   color: white;
   padding: calc((62.5% - 250px) / 2) 0;
@@ -31,4 +30,9 @@
 }
 .cover__link:hover::before {
   opacity: 0.8;
+}
+@media screen and (max-width: 767px) {
+  .cover__link {
+    padding: calc((62.5% - 134px) / 2) 16px;
+  }
 }

@@ -1,17 +1,32 @@
 .place__image {
   grid-area: image;
   width: 100%;
-  max-width: 460px;
   aspect-ratio: 1;
 }
+@media screen and (min-width: 1280px) {
+  .place__image {
+    max-width: 460px;
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .place__image {
     max-width: 440px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__image {
-    max-width: 340px;
+    max-width: 440px;
+    min-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    max-width: 736px;
+    position: relative;
+    left: -16px;
+    width: calc(100% + 32px);
   }
 }

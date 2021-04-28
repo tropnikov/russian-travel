@@ -3,6 +3,11 @@
 }
 @media screen and (max-width: 1023px) {
   .place__text {
-    max-width: 352px;
+    max-width: 440px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__text {
+    min-width: 352px;
   }
 }
