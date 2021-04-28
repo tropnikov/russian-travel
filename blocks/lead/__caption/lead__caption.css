@@ -6,3 +6,14 @@
   letter-spacing: 0.15em;
   margin: 8px auto 0;
 }
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

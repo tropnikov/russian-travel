@@ -8,6 +8,7 @@
   row-gap: 48px;
   -moz-column-gap: 40px;
   column-gap: 40px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1279px) {
@@ -19,6 +20,7 @@
 
 @media screen and (max-width: 1023px) {
   .place {
+    max-width: 720px;
     -moz-column-gap: 28px;
     column-gap: 28px;
   }

@@ -7,23 +7,33 @@
   align-self: end;
   max-width: 460px;
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .place__title {
     max-width: 440px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .place__title {
     max-width: 474px;
     font-size: 42px;
     line-height: 46px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place__title {
-    max-width: 330px;
+    max-width: 320px;
     font-size: 32px;
     line-height: 35px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .place__title {
+    padding-left: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__title {
+    max-width: 288px;
   }
 }

@@ -3,14 +3,28 @@
   max-width: 984px;
 }
 
+/* @media screen and (min-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+    margin-right
+  }
+
+} */
+@media screen and (max-width: 1279px) {
+  .intro {
+    margin: 88px 48px 0;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .intro {
-    margin: 88px 48px;
+    max-width: 928px;
+    margin: 88px 24px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    margin: 64px auto;
+    margin: 64px 16px 0;
   }
 }
