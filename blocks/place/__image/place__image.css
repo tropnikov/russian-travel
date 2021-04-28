@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 768px) {
   .place__image {
-    max-width: 340px;
+    max-width: 100%;
     /* position: relative;
     left: -16px;
     width: calc(100% + 32px); */
