@@ -4,3 +4,9 @@
   margin: 0 auto;
   font-size: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
