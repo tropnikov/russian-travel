@@ -1,16 +1,20 @@
 .cover {
   max-width: 1184px;
   max-height: 740px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-left: 48px;
+  margin-right: 48px;
   box-sizing: border-box;
-  width: 100%;
+  /* width: 100%; */
 }
 @media screen and (max-width: 1279px) {
   .cover {
     max-width: 1280px;
-    position: relative;
-    left: -48px;
-    width: calc(100% + 96px);
+    /* position: relative; */
+    /* left: -48px; */
+    margin-left: 0;
+    margin-right: 0;
+    /* width: calc(100% + 96px); */
   }
 }
 @media screen and (max-width: 1023px) {

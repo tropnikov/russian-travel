@@ -12,7 +12,7 @@
   .photo-grid {
     grid-template: repeat(4, 1fr) / repeat(3, 1fr);
     gap: 14px;
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
@@ -20,7 +20,7 @@
   .photo-grid {
     grid-template: repeat(6, 1fr) / repeat(2, 1fr);
     gap: 16px;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     margin-bottom: 88px;
   }
@@ -29,7 +29,7 @@
   .photo-grid {
     grid-template: repeat(12, 1fr) / 1fr;
     gap: 12px;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     margin-bottom: 64px;
   }
