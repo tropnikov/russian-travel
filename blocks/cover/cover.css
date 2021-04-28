@@ -7,9 +7,16 @@
 }
 @media screen and (max-width: 1279px) {
   .cover {
-    max-width: 1024px;
+    max-width: 1280px;
     position: relative;
     left: -48px;
     width: calc(100% + 96px);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cover {
+    position: relative;
+    left: -24px;
+    width: calc(100% + 48px);
   }
 }
