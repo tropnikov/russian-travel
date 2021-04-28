@@ -15,3 +15,12 @@
     width: calc(100% + 48px);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    max-width: 1024px;
+    position: relative;
+    left: -16px;
+    width: calc(100% + 32px);
+  }
+}
