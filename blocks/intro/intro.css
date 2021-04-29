@@ -3,13 +3,6 @@
   max-width: 984px;
 }
 
-/* @media screen and (min-width: 1024px) {
-  .intro {
-    margin-left: 48px;
-    margin-right
-  }
-
-} */
 @media screen and (max-width: 1279px) {
   .intro {
     margin: 92px 48px 0;

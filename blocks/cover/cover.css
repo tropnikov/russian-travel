@@ -2,40 +2,21 @@
   max-width: 1184px;
   max-height: 740px;
   margin: 92px auto 0;
-  /* margin-left: 48px; */
-  /* margin-right: 48px; */
   box-sizing: border-box;
-  /* width: 100%; */
 }
 @media screen and (max-width: 1280px) {
   .cover {
     max-width: 1280px;
-    /* position: relative; */
-    /* left: -48px; */
-    /* margin-left: 0; */
-    /* margin-right: 0; */
-    /* width: calc(100% + 96px); */
   }
 }
 @media screen and (max-width: 1023px) {
   .cover {
-    /* max-width: 928px; */
-    /* margin: 0 48px 90px; */
     margin: 90px auto 0;
-    /* 48px */
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    /* max-width: 100%; */
     margin: 66px auto 0;
-    /* margin: 0 24px 66px; */
   }
 }
-/* @media screen and (max-width: 425px) {
-  .places {
-    max-width: 100%;
-    margin: 0 auto 66px;
-  }
-} */

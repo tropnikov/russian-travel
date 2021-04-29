@@ -1,16 +1,12 @@
 .place__text {
   grid-area: text;
-  /* max-width: 484px; */
-  /* max-width: 100%; */
 }
 @media screen and (max-width: 1023px) {
   .place__text {
-    /* max-width: 440px; */
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__text {
-    /* max-width: 456px; */
     min-width: 352px;
   }
 }
@@ -23,6 +19,5 @@
 @media screen and (max-width: 320px) {
   .place__text {
     max-width: 288px;
-    /* max-width: calc(100vw - 18px * 2); */
   }
 }
