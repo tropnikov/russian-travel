@@ -22,7 +22,7 @@
 }
 @media screen and (max-width: 320px) {
   .place__text {
-    max-width: 286px;
+    max-width: 288px;
     /* max-width: calc(100vw - 18px * 2); */
   }
 }
