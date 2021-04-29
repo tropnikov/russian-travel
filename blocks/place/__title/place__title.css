@@ -4,25 +4,26 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
-  align-self: end;
-  max-width: 480px;
+  /* align-self: end; */
+  max-width: 400px;
+  /* width: max-content; */
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place__title {
-    max-width: 460px;
+    max-width: 440px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__title {
-    max-width: 474px;
+    max-width: 330px;
     font-size: 42px;
     line-height: 46px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__title {
-    max-width: 320px;
+    /* max-width: 320px; */
     font-size: 32px;
     line-height: 35px;
   }

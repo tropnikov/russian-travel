@@ -5,22 +5,24 @@
 }
 @media screen and (max-width: 1023px) {
   .place__text {
-    max-width: 440px;
+    /* max-width: 440px; */
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__text {
-    max-width: 456px;
-    /* min-width: 352px; */
+    /* max-width: 456px; */
+    min-width: 352px;
   }
 }
 @media screen and (max-width: 425px) {
   .place__text {
     padding: 0 16px;
+    max-width: calc(100vw - 16px * 2);
   }
 }
 @media screen and (max-width: 320px) {
   .place__text {
-    max-width: 288px;
+    max-width: 286px;
+    /* max-width: calc(100vw - 18px * 2); */
   }
 }
