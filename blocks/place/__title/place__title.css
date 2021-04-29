@@ -5,11 +5,11 @@
   line-height: 76px;
   margin: 0;
   align-self: end;
-  max-width: 460px;
+  max-width: 480px;
 }
 @media screen and (max-width: 1280px) {
   .place__title {
-    max-width: 440px;
+    max-width: 460px;
   }
 }
 

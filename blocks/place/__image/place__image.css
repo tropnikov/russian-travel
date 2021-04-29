@@ -1,6 +1,7 @@
 .place__image {
   grid-area: image;
   width: 100%;
+  max-width: 480px;
   /* aspect-ratio: 1; */
 }
 @media screen and (max-width: 1280px) {
