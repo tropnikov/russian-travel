@@ -1,6 +1,7 @@
 .place__text {
   grid-area: text;
-  max-width: 484px;
+  /* max-width: 484px; */
+  /* max-width: 100%; */
 }
 @media screen and (max-width: 1023px) {
   .place__text {
@@ -10,12 +11,12 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__text {
     max-width: 456px;
-    min-width: 352px;
+    /* min-width: 352px; */
   }
 }
 @media screen and (max-width: 425px) {
   .place__text {
-    padding-left: 16px;
+    padding: 0 16px;
   }
 }
 @media screen and (max-width: 320px) {
