@@ -13,6 +13,8 @@
   text-decoration: none;
   color: white;
   padding: calc((62.5% - 250px) / 2) 0;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
 }
 
 .cover__link:before {
