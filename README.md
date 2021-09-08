@@ -5,7 +5,7 @@
 
 ## Стек:
 * HTML
-* CSS: flexbox, grid, animations
+* CSS: flexbox, grid, animations, media queries
 * БЭМ
 
 ## Посмотреть:
